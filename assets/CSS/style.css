@@ -72,11 +72,6 @@ nav {
   grid-template-rows: repeat(3, 1fr);
 }
 
-/* .grid-item .image {
-  height: 1.5rem;
-  width: 1.5rem;
-} */
-
 .grid-item img {
   height: 0 auto;
   width: 0 auto;
