@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -46,6 +47,9 @@ header .avatar {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -khtml-border-radius: 50%;
   overflow: hidden;
   outline: 0.25rem solid var(--color-30);
 }
@@ -179,7 +183,6 @@ h3 {
   width: 25rem;
   height: 25rem;
   transform: translateY(-50%);
-
   opacity: 50%;
 }
 
